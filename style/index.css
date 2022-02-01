@@ -1,0 +1,73 @@
+body {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 200px;
+}
+
+#all-content {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    height: 500px;
+    grid-auto-rows: 500px;
+    width: 1100px;
+}
+
+img {
+    margin-top: 30px;
+    margin-left: 30px;
+}
+
+button {
+    font-family: 'Big Shoulders Display';
+    margin-top: 80px;
+    margin-left: 30px;
+    padding: 10px 40px;
+    background-color: hsl(0, 0%, 95%);
+    border: none;
+    border-radius: 25px;
+    cursor: pointer;
+    font-size: 25px;
+}
+
+.sedans {
+    background-color: hsl(31, 77%, 52%);
+    border-radius: 10px 0px 0px 10px;
+}
+
+.sedan-button {
+    color: hsl(31, 77%, 52%);
+}
+
+.suvs {
+    background-color: hsl(184, 100%, 22%);
+}
+
+.suv-button {
+    color: hsl(184, 100%, 22%);
+}
+
+.luxury {
+    background-color: hsl(179, 100%, 13%);
+    border-radius: 0px 10px 10px 0px;
+}
+
+.luxury-button {
+    color: hsl(179, 100%, 13%);
+}
+
+h3 {
+    font-family: 'Big Shoulders Display';
+    font-size: 2rem;
+    color: hsl(0, 0%, 95%);
+    margin-left: 30px;
+}
+
+p {
+    font-family: 'Lexend Deca', sans-serif;
+    line-height: 2rem;
+    color: hsla(0, 0%, 100%, 0.75);
+    margin-left: 30px;
+    margin-bottom: 0px;
+    width: 300px;
+}
